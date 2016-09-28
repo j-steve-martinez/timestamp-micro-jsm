@@ -1,0 +1,28 @@
+{
+  "name": "timestamp-micro",
+  "version": "1.0.0",
+  "description": "freeCodeCamp API BaseJump timestamp microservice",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://git.heroku.com/timestamp-micro-jsm.git"
+  },
+  "homepage": "",
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [
+    "Express",
+    "Moment",
+    "Node",
+    "javascript"
+  ],
+  "author": "J. Steve Martinez",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.3",
+    "moment": "^2.15.1",
+    "mongodb": "^2.0.42"
+  },
+  "devDependencies": {}
+}
