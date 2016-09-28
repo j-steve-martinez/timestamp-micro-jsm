@@ -11,6 +11,9 @@
   "bugs": {
     "url": ""
   },
+  "scripts": {
+    "start": "node server.js"
+  },
   "keywords": [
     "Express",
     "Moment",
@@ -21,7 +24,8 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.13.3",
-    "moment": "^2.15.1"
+    "moment": "^2.15.1",
+    "mongoose": "^4.1.0"
   },
   "devDependencies": {}
 }
