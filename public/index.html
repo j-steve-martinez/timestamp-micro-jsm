@@ -31,10 +31,10 @@
          <div id="example">
            <h3>Example usage:</h3>
            <div >
-             <h4><a id="natural" href="http://localhost:3000/January%2015,%202015">https://localhost:3000/January%2015,%202015</a></h4>
+             <h4><a id="natural" href="http://localhost:3000/January 17, 2015">https://localhost:3000/January 17, 2015</a></h4>
            </div>
            <div >
-             <h4><a id="timestamp" href="http://localhost:3000/1450137601">https://localhost:3000/1450137601</a></h4>
+             <h4><a id="timestamp" href="http://localhost:3000/1421481600000">https://localhost:3000/1421481600000</a></h4>
            </div>
            <h3>Example output:</h3>
            <div id="output">
@@ -44,22 +44,17 @@
 
       </div>
       <script type="text/javascript">
-      (function(){
         'use strict';
         // set the links based on the current url
         var loc = document.URL;
-        var nLoc = loc + 'January%2015,%202011';
-        var tLoc = loc + '1450137601';
+        var nLoc = loc + 'January 17, 2015';
+        var tLoc = loc + '1421481600000';
         var natural = document.getElementById('natural');
         var timestamp = document.getElementById('timestamp');
         natural.innerHTML = nLoc;
         natural.href = nLoc;
         timestamp.innerHTML = tLoc;
-        timestamp.href = tLoc;
-      });
-
       </script>
-
       <!-- <script type="text/javascript" src="/controllers/clickController.client.js"></script> -->
    </body>
 
